@@ -14,8 +14,14 @@
 順序は時に無いです。
 
 
+## Twitter
 
+https://twitter.com/gakusei200709/status/762145663454818304
 
+https://twitter.com/gakusei200709/status/762146053500002305
+ちなみにサイズ合わなかったです…
+
+https://twitter.com/gakusei200709/status/762284210094604288
 
 ## 反省
 今あらためてプログラム見たら面白そうなのいっぱいある…  参加前にパンフ一読は必須ですね、もったいないことした…。
