@@ -2,6 +2,8 @@
 
 
 ## supponser LT
+[slide](https://speakerdeck.com/kentomoriwaki/typescript-in-wantedly)
+
 Type Script導入しました
 
 めっちゃ良かった
@@ -25,12 +27,16 @@ VSCode is good
 * babel 7(beta~)
 * 完全互換はない
     * namespaceとかは使えないけどWorkaroundはあるよ
+
+
  
 ### ReduxのActionReducer周りのベストプラクティスがない
 →TypeScript FSAでかいけつできる！
 
 非同期周りのActionの定義
 いろいろ自動で定義してくれる
+
+---
 
 # JSでつぶやきのオレオレ分類作ってみたい人生だった
 
@@ -55,3 +61,57 @@ Modelで来たけど制度は確認できづ
 日本語脳脳みそつかうので辛い  
 
 DaynamoDBの気持ちがわからない
+
+## SVM
+
+機械学習むつがしい
+JSは数字に弱い
+Pythonでやったほうがいい
+
+##Lambaで機械学習
+
+5ふんでタイムアウト
+
+
+学習済み使ったほうが良い
+
+---
+
+# Polymer
+
+ドキュメント新しくなったけど翻訳する人がぜんぜん居ない
+
+Not  Polyfill!!
+
+## 特徴
+* 軽い！
+* TypeScriptSupport
+* バウワーがおなくなりに → 祝NPM化
+* HTML Imports 廃止（Google しか実装しなかった）
+    * →ES Modules
+* ライフサイクル追加
+*  2.0はVueぽさがあった
+*  3.0からはClassベースに！
+    *  使いやすそう
+* LitElement
+* PWA STARTER KIT
+    * 気になるあとで試す
+
+## まとめ
+めっちゃ使いやすくなったよ！
+
+---
+
+# JSで対戦ゲー作った
+
+## sourcer
+カルネージハートっぽくしたい
+* 自分で時期を実装して対戦させる
+* 学生向けイベントとか
+* 社内向けイベントでつかってる
+* リポジトリがあるから自分で試してみて！
+* Herokuでもできる
+* JS仲間で対戦しよう！
+* 
+
+ 
