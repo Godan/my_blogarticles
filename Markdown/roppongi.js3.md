@@ -162,5 +162,23 @@ dependenceにするか
 →通る   
 Herokuが悪かった  
 →けどWebpackはやめとけ  
+https://twitter.com/murokaco/status/1001423159797604352
 
 HerokuのYarnをみるとDependenciesしかインストールしてなさそう
+
+
+----
+# FromJSの黒魔術
+やっていきFMの人だ！
+
+## what fromJS
+choromeのエクステンション
+HTML内の文字から元のソースコードを当てる  
+JSにその機能あたっけ？  
+→ エラーだとコードの場所あるよね？
+→あれはnew Errorでスタックで知ることができる
+
+Babel！
+文字列リテラルをバベルの静的解析で差し替えておく
+
+なぜこんなものをつくろうとおもったのか…
