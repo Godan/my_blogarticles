@@ -78,6 +78,7 @@ Pythonでやったほうがいい
 ---
 
 # Polymer
+[slide](https://slides.com/takanorip/re-understand-polymer3#/)
 
 ドキュメント新しくなったけど翻訳する人がぜんぜん居ない
 
@@ -103,7 +104,7 @@ Not  Polyfill!!
 ---
 
 # JSで対戦ゲー作った
-
+[slide](https://yamatatsu.github.io/slides/002/#/)
 ## sourcer
 カルネージハートっぽくしたい
 * 自分で時期を実装して対戦させる
@@ -114,4 +115,52 @@ Not  Polyfill!!
 * JS仲間で対戦しよう！
 * 
 
- 
+---
+
+# Dartから来たBLoCの話
+[slide](https://slides.com/adwd/bloc-from-dart#/)
+
+ビジネスロジックコンポーネント
+の略
+* ReactとかVueとかではない
+* Google AdWordsが発表
+* DartConf GoogleI/Oで発表
+* WebとMobileでビジネスロジックを共有したい
+* 言語 プラットフォームにとらわれないビジネスロジック設計パターン
+* ビジネスロジックをコンポーネントツリーと別のところに置く
+* BLoCの外部インターフェースはobserverだけ
+* RxJSでいうObservable.subscribe とObservable.next
+* 関心をしっかり分離できる
+* BLocはいいぞ
+* Reduxとくらべて
+    * 不満点を解消してくれる
+
+
+---
+
+# Which should I ....
+
+* 名取さなガチ恋勢
+
+
+* dependecies
+* devDependenciesっぽい？
+    * だめだった
+
+## とあるRailsプロジェクト
+Herokuにデプロイしようとした
+Webpackでは通ってるのにおちた
+
+react消すと動く
+
+## 仮設
+Webpacker？
+Heroku?
+
+Webpackerか？？  
+dependenceにするか  
+→通る   
+Herokuが悪かった  
+→けどWebpackはやめとけ  
+
+HerokuのYarnをみるとDependenciesしかインストールしてなさそう
