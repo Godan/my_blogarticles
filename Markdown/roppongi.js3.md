@@ -139,6 +139,7 @@ Not  Polyfill!!
 ---
 
 # Which should I ....
+[slide](https://www.slideshare.net/euxn/20180529-which-should-i-save-babel-modules-in-devdependencies-or-dependencies)
 
 * 名取さなガチ恋勢
 
@@ -169,6 +170,7 @@ HerokuのYarnをみるとDependenciesしかインストールしてなさそう
 
 ----
 # FromJSの黒魔術
+[slide](https://slides.com/ktsn/reading-fromjs#/)
 やっていきFMの人だ！
 
 ## what fromJS
@@ -182,3 +184,27 @@ Babel！
 文字列リテラルをバベルの静的解析で差し替えておく
 
 なぜこんなものをつくろうとおもったのか…
+
+# エンジニアでも気にしたい色のアクセスビリティ
+アクセスビリティ領域は多岐にわたるが ここでは色
+ 
+ yarmでCLIで色盲の人は違いがわからない
+
+ どうすれば良い？
+ Issuで提案 
+ Green→Blue
+
+ 治そうとしたら第三色覚異常には問題になる
+
+ →利用者のターミナルに設定を委ねたほうがいい
+
+ WXAG2.0には「色が唯一の情報ソースになってはならない」
+
+ 色盲ですら他人事ではない
+
+ まとめ  
+ 色がユイツの情報ソースになってはならない  
+ CLIでも気にしていくべき
+ Webでもね
+
+ 
