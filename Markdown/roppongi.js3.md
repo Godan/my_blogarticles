@@ -207,4 +207,56 @@ Babel！
  CLIでも気にしていくべき
  Webでもね
 
- 
+---
+
+# Node Security Platform nsp, npm audit
+[side](https://speakerdeck.com/ohbarye/color-accessibility-that-engineers-should-care)
+
+NPMには脆弱性の情報管理公開する組織がある
+報告すると開発者に通達45日以内に改善がなければ脆弱性が公開される
+
+## NSP
+installされているNPM脆弱性を監視できる  
+買収されてNPMに組み込まれた (npm audit)
+
+npmでinstallした際にサマリが出るように
+
+yarmには非対応
+nsp… package.jsonで脆弱性表示
+NPM audit…エラーで死ぬ
+
+yarnからpackage-lock.json に変更する
+
+yean auditを作る動きもある
+
+メルカリケース
+CIで実行週一で実行Slackに通知
+
+
+## 運用してみて
+コスト結構高い
+Webpackの脆弱性出たらかなりでた
+hackerOneで是弱正の内容発生条件が確認できる
+
+パッチ出てないことが多い  
+過ぎに対応も辛い  
+NPMに入ったので頑張ってほしい
+
+----
+
+
+# なぜ私ははRudixをやめたのか
+
+今日来日したよ！
+## Memoization
+関数の結果を記録してすぐ返す
+
+
+--- 
+
+# 5分でわかるivy
+angulerの3代目の新しいレンダラー
+
+incrementalDOM がベース
+仮想Nodeの仕組み
+
