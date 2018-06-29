@@ -255,8 +255,60 @@ NPMに入ったので頑張ってほしい
 --- 
 
 # 5分でわかるivy
+[slide](https://docs.google.com/presentation/d/e/2PACX-1vSfYozOThuEBpvBO7KTPHrAhutvLovL2ytuWOgniRQRRPJRUZeY9VkvFekEuDLwrOOBD9ek5bxOQRRk/pub?start=false&loop=false&delayms=3000&slide=id.p)
+
 angulerの3代目の新しいレンダラー
 
 incrementalDOM がベース
 仮想Nodeの仕組み
 
+
+--- 
+# フロントエンドが便利になりそうなライブラリ
+[slide](https://speakerdeck.com/mukai21/hurontoendokai-fa-ga-bian-li-ninarisounaraiburari)
+
+## webdash
+リポジトリ内のNPM関連 パフォーマンス関連をブラウザで確認できる  
+JSのファイルサイズとかも確認できる
+
+## react-copy-write
+Contextを使った状態管理ライブラリ
+
+## lynt
+Lint設定をZeroConfigで行えす
+Eslint TsLintどちらも対応
+
+
+## react-lifecucle-visualizer
+Reactのライフサイクルの確認に使える
+
+
+---- 
+
+# React Netive Cord Push
+
+[slide](https://speakerdeck.com/yamadayuki/react-native-codepush-in-wantedly)
+
+WebエンジニアでもCodePush導入できるよ
+CodePushは運用できれば良いツールになりそう
+
+# P2P Networking With Node.js
+
+闇が深い
+
+Lisk Node.jsで書かれたブロックチェーン 
+
+P2Pって天才の所業じゃん？
+
+WEB RTCではないのか？
+* 運営がトラフィックを支えなければならない
+* ダウンしないネットワークの必要性
+* 公権力に運営サーバーに抑えられても運用できる
+
+## Rock'n'Roll P2P
+### Natのかべ
+* いわいるNat超え
+* 最近はuPnPで自動ポート開放できる
+* 
+* 歴史的経緯に的にあれ
+* ネットに落ちてる日本語情報古い
