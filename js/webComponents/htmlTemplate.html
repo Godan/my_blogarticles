@@ -1,0 +1,18 @@
+<body id='host'>
+    check
+
+</body>
+<template >
+        hello
+        <template id="nest">
+                hello2nd
+        </template>
+</template>
+<script>
+    var shadow = document.querySelector('body');
+    // テンプレート内のテンプレートはレンダリングされない
+    shadow.appendChild(document.querySelector('template').content);
+    // ちゃんと指定してあげるとレンダリングされる
+    shadow.appendChild(document.querySelector('#nest').content);
+
+</script>
