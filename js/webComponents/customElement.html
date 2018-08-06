@@ -1,0 +1,40 @@
+<script>
+
+class originaTag extends HTMLElement {
+    static get observedAttributes() {return ['name']; }
+
+    constructor() {
+    // HTMLElement Classのコンスタントを実行
+    super();
+    }
+
+    connectedCallback(){
+    // 要素が挿入されたときに実行されます
+    // このタイミングでシャドーDOMを呼び出します
+        console.log('make!')
+    }
+
+    disconnectedCallback(){
+        // 要素が削除された時に呼ばれます
+        console.log('remove!')
+    }
+
+    attributeChangedCallback(attributeName, oldValue, newValue, namespace){
+        // 要素の属性が変更された時に呼ばれます
+        console.log('chenge attribute!')
+
+    }
+
+    adoptedCallback(){
+        // ドキュメントが変わったとき  (ownerDocumentが変更された時に)呼ばれます
+        console.log('change ownerDocument!')
+    }
+}
+
+// Define the new element
+customElements.define('original-tag', originaTag);
+
+</script>
+
+
+<original-tag></original-tag>
